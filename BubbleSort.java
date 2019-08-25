@@ -15,12 +15,6 @@ public class BubbleSort {
         printSortedArray(array);
     }
 
-    public static void swap(int[] array, int x, int y) {
-        array[x] += array[y];
-        array[y] = array[x] - array[y];
-        array[x] = array[x] - array[y];
-    }
-
     public static void printSortedArray(int[] array) {
         for (int a : array) {
             System.out.print(a + " ");
